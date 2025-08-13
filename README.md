@@ -51,11 +51,13 @@ Abre la terminal, da permisos de ejecución y ejecuta el script:
 ### 2. Instala dependencias
 
 - Windows
-Ejecuta en la consola:
+Ejecuta en la consola
+
     setup.bat
 
 - Mac/Linux
 En el terminal:
+
     chmod +x setup.sh
     ./setup.sh
 
