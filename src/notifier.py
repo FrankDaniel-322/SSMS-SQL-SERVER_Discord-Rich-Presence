@@ -1,5 +1,5 @@
 import subprocess
-from utils.logger import log
+from logger import log
 
 def notify(title: str, msg: str):
     """
