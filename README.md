@@ -61,6 +61,8 @@ En el terminal:
     chmod +x setup.sh
     ./setup.sh
 
+---
+
 ### Uso
 
 Ejecuta el programa principal:
@@ -73,25 +75,39 @@ Ejecuta en la consola:
 En el terminal:
     python3 src/main.py
 
+---
 
 ### Estructura del proyecto
 
 ssms-discord-rpc/
+
 │
+
 ├── src/
+
 │   ├── __init__.py            # Inicialización del paquete
+
 │   ├── main.py                # Script principal que ejecuta la aplicación
+
 │   ├── notifier.py            # Módulo para mostrar notificaciones nativas
+
 │   ├── presence_manager.py    # Gestión del estado y conexión con Discord RPC
+
 │   ├── utils.py               # Funciones auxiliares como logging y detección de procesos
+
 │
+
 ├── requirements.txt           # Dependencias Python
+
 ├── setup.bat                  # Instalador automático para Windows
+
 ├── setup.sh                   # Instalador automático para Mac/Linux
+
 ├── README.md                  # Documentación del proyecto
+
 └── .gitignore                 # Archivos a ignorar en Git
 
-
+---
 
 ## Personalización
 
@@ -99,10 +115,14 @@ ssms-discord-rpc/
  - Cambia 'PROCESS_NAME' en 'src/process_watcher.py' si quieres monitorear otro proceso.
  - Cambia 'LARGE_IMAGE_KEY' en 'src/discord_rpc.py' por la clave de imagen que tengas en tu app Discord.
 
+---
+
 ## Detalles técnicos
 
  - Las notificaciones se muestran usando PowerShell Toast Notifications en Windows 10/11.
 
  - La conexión con Discord usa la librería pypresence.
 
-¡Gracias por usar SSMS Discord RPC!
+---
+
+### ¡Gracias por usar SSMS Discord RPC!
