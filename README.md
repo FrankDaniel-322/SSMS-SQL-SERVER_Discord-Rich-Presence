@@ -53,13 +53,13 @@ Abre la terminal, da permisos de ejecución y ejecuta el script:
 - Windows
 Ejecuta en la consola
 ```
-    setup.bat
+setup.bat
 ```
 - Mac/Linux
 En el terminal:
 ```
-    chmod +x setup.sh
-    ./setup.sh
+chmod +x setup.sh
+./setup.sh
 ```
 ---
 
@@ -70,12 +70,12 @@ Ejecuta el programa principal:
 - Windows
 Ejecuta en la consola:
 ```
-   python src\main.py
+python src\main.py
 ```
 - Mac/Linux
 En el terminal:
 ```
-   python3 src/main.py
+python3 src/main.py
 ```
 ---
 
