@@ -52,15 +52,15 @@ Abre la terminal, da permisos de ejecución y ejecuta el script:
 
 - Windows
 Ejecuta en la consola
-
+```
     setup.bat
-
+```
 - Mac/Linux
 En el terminal:
-
+```
     chmod +x setup.sh
     ./setup.sh
-
+```
 ---
 
 ### Uso
@@ -69,12 +69,14 @@ Ejecuta el programa principal:
 
 - Windows
 Ejecuta en la consola:
-    python src\main.py
-
+```
+   python src\main.py
+```
 - Mac/Linux
 En el terminal:
-    python3 src/main.py
-
+```
+   python3 src/main.py
+```
 ---
 
 ### Estructura del proyecto
@@ -108,7 +110,6 @@ ssms-discord-rpc/
 ## Detalles técnicos
 
  - Las notificaciones se muestran usando PowerShell Toast Notifications en Windows 10/11.
-
  - La conexión con Discord usa la librería pypresence.
 
 ---
