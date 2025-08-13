@@ -125,4 +125,10 @@ ssms-discord-rpc/
 
 ---
 
+## Licencia
+
+MIT License © 2025 ElPsyCongroo
+
+---
+
 ### ¡Gracias por usar SSMS Discord RPC!
