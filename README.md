@@ -78,34 +78,22 @@ En el terminal:
 ---
 
 ### Estructura del proyecto
-
+```
 ssms-discord-rpc/
-
 │
-
 ├── src/
-
 │   ├── __init__.py            # Inicialización del paquete
-
 │   ├── main.py                # Script principal que ejecuta la aplicación
-
 │   ├── notifier.py            # Módulo para mostrar notificaciones nativas
-
 │   ├── presence_manager.py    # Gestión del estado y conexión con Discord RPC
-
 │   ├── utils.py               # Funciones auxiliares como logging y detección de procesos
-
 │
-
 ├── requirements.txt           # Dependencias Python
-
 ├── setup.bat                  # Instalador automático para Windows
-
 ├── setup.sh                   # Instalador automático para Mac/Linux
-
 ├── README.md                  # Documentación del proyecto
-
 └── .gitignore                 # Archivos a ignorar en Git
+```
 
 ---
 
